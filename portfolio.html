@@ -11,11 +11,15 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      rel="stylesheet"
+    />
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Шапка с навигацией-->
-    <header>
+    <header class="header">
       <nav class="container nav">
         <a class="logo link" href="./index.html">
           Web<span class="logo-word">Studio</span>
@@ -51,9 +55,9 @@
       </nav>
     </header>
     <!-- Галлерея-->
-    <main class="gallery">
+    <main>
       <h2></h2>
-      <section>
+      <section class="container gallery">
         <ul class="gallery-list list">
           <li class="gallery-item">
             <button class="gallery-button" type="button">Все</button>
@@ -73,112 +77,154 @@
         </ul>
         <!--Портфолио карты-->
         <ul class="gallery-cards list">
-          <li>
-            <img src="./images/img7.jpg" alt="сайт" width="370" height="294" />
-            <h3 class="gallery-title">Технокряк</h3>
-            <p class="gallery-text">Веб-сайт</p>
-            <p></p>
-          </li>
-          <li>
+          <li class="gallery-cards-item">
             <img
+              class="gallery-cards-img"
+              src="./images/img7.jpg"
+              alt="сайт"
+              width="370"
+              height="294"
+            />
+            <div class="border-crd">
+              <h3 class="gallery-title">Технокряк</h3>
+              <p class="gallery-text">Веб-сайт</p>
+              <p></p>
+            </div>
+          </li>
+          <li class="gallery-cards-item">
+            <img
+              class="gallery-cards-img"
               src="./images/img8.jpg"
               alt="постер"
               width="370"
               height="294"
             />
-            <h3 class="gallery-title">Постер New Orlean vs Golden Star</h3>
-            <p class="gallery-text">Дизайн</p>
-            <p></p>
+            <div class="border-crd">
+              <h3 class="gallery-title">Постер New Orlean vs Golden Star</h3>
+              <p class="gallery-text">Дизайн</p>
+              <p></p>
+            </div>
           </li>
-          <li>
+          <li class="gallery-cards-item">
             <img
+              class="gallery-cards-img"
               src="./images/img9.jpg"
               alt="логотип"
               width="370"
               height="294"
             />
-            <h3 class="gallery-title">Ресторан Seafood</h3>
-            <p class="gallery-text">Приложение</p>
-            <p></p>
+            <div class="border-crd">
+              <h3 class="gallery-title">Ресторан Seafood</h3>
+              <p class="gallery-text">Приложение</p>
+              <p></p>
+            </div>
           </li>
-          <li>
+          <li class="gallery-cards-item">
             <img
+              class="gallery-cards-img"
               src="./images/img10.jpg"
               alt="наушники"
               width="370"
               height="294"
             />
-            <h3 class="gallery-title">Проект Prime</h3>
-            <p class="gallery-text">Маркетинг</p>
-            <p></p>
+            <div class="border-crd">
+              <h3 class="gallery-title">Проект Prime</h3>
+              <p class="gallery-text">Маркетинг</p>
+              <p></p>
+            </div>
           </li>
-          <li>
+          <li class="gallery-cards-item">
             <img
+              class="gallery-cards-img"
               src="./images/img11.jpg"
               alt="коробки"
               width="370"
               height="294"
             />
-            <h3 class="gallery-title">Проект Boxes</h3>
-            <p class="gallery-text">Приложение</p>
-            <p></p>
+            <div class="border-crd">
+              <h3 class="gallery-title">Проект Boxes</h3>
+              <p class="gallery-text">Приложение</p>
+              <p></p>
+            </div>
           </li>
-          <li>
-            <img src="./images/img12.jpg" alt="сайт" width="370" height="294" />
-            <h3 class="gallery-title">Inspiration has no Borders</h3>
-            <p class="gallery-text">Веб-сайт</p>
-            <p></p>
+          <li class="gallery-cards-item">
+            <img
+              class="gallery-cards-img"
+              src="./images/img12.jpg"
+              alt="сайт"
+              width="370"
+              height="294"
+            />
+            <div class="border-crd">
+              <h3 class="gallery-title">Inspiration has no Borders</h3>
+              <p class="gallery-text">Веб-сайт</p>
+              <p></p>
+            </div>
           </li>
-          <li>
+          <li class="gallery-cards-item">
             <img
               src="./images/img13.jpg"
               alt="журнал"
               width="370"
               height="294"
             />
-            <h3 class="gallery-title">Издание Limited Edition</h3>
-            <p class="gallery-text">Дизайн</p>
-            <p></p>
+            <div class="border-crd">
+              <h3 class="gallery-title">Издание Limited Edition</h3>
+              <p class="gallery-text">Дизайн</p>
+              <p></p>
+            </div>
           </li>
-          <li>
+          <li class="gallery-cards-item">
             <img
+              class="gallery-cards-img"
               src="./images/img14.jpg"
               alt="лейбл"
               width="370"
               height="294"
             />
-            <h3 class="gallery-title">Проект LAB</h3>
-            <p class="gallery-text">Маркетинг</p>
-            <p></p>
+            <div class="border-crd">
+              <h3 class="gallery-title">Проект LAB</h3>
+              <p class="gallery-text">Маркетинг</p>
+              <p></p>
+            </div>
           </li>
-          <li>
+          <li class="gallery-cards-item">
             <img
+              class="gallery-cards-img"
               src="./images/img15.jpg"
               alt="ноутбук"
               width="370"
               height="294"
             />
-            <h3 class="gallery-title">Growing Business</h3>
-            <p class="gallery-text">Приложение</p>
-            <p></p>
+            <div class="border-crd">
+              <h3 class="gallery-title">Growing Business</h3>
+              <p class="gallery-text">Приложение</p>
+              <p></p>
+            </div>
           </li>
         </ul>
       </section>
     </main>
     <!-- Подвал -->
     <footer class="footer">
-      <a class="logo link" href="#">
-        Web<span class="logo-footer"> Studio</span></a
-      >
-      <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
-      <ul class="footer-list list">
-        <li class="footer-item">
-          <a class="link" href="mailto:info@example.com"> info@example.com </a>
-        </li>
-        <li class="footer-item">
-          <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
-        </li>
-      </ul>
+      <div class="container">
+        <a class="logo-footer logo link" href="#">
+          Web<span class="logo-studio"> Studio</span></a
+        >
+        <address class="footer-address">
+          г. Киев, пр-т Леси Украинки, 26
+        </address>
+        <ul class="footer-list list">
+          <li class="footer-item">
+            <a class="link" href="mailto:info@example.com">
+              info@example.com
+            </a>
+          </li>
+          <li class="footer-item">
+            <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
