@@ -122,7 +122,8 @@ header {
 .hero {
   max-width: 1600px;
   padding: 200px 0;
-  margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 
   text-align: center;
   background-color: var(--second-bgncolor);
@@ -158,14 +159,14 @@ header {
 
 /*------------------Преимущества---------------------*/
 .benefits {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .benefits-list {
   display: flex;
 }
 .benefits-item {
   width: 270px;
-  height: 75px;
   margin-right: 30px;
 }
 .benefits-item:last-child {
@@ -191,7 +192,7 @@ header {
 
 /*------------------Услуги---------------------*/
 .service {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .service-title {
   margin-bottom: 50px;
@@ -274,7 +275,7 @@ header {
 .logo-footer {
   display: block;
   padding-top: 60px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .logo-studio {
   color: var(--second-text-color);
@@ -294,6 +295,9 @@ header {
 .footer-list {
   padding-bottom: 60px;
 }
+.footer-item {
+  margin-top: 9px;
+}
 .footer-item .link {
   font-size: 14px;
   line-height: 1.71;
@@ -306,8 +310,8 @@ header {
 /*------------------Портфолио---------------------*/
 /*------------------Галлерея---------------------*/
 .gallery {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .gallery-list {
   display: flex;
@@ -360,14 +364,12 @@ header {
   display: block;
 }
 .border-crd {
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
 .gallery-title {
-  padding-top: 20px;
-  padding-left: 24px;
   margin-bottom: 4px;
-
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -375,9 +377,6 @@ header {
   color: var(--main-title-color);
 }
 .gallery-text {
-  padding-left: 24px;
-  padding-bottom: 20px;
-
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
