@@ -218,6 +218,8 @@ header {
 /*------------------Команда---------------------*/
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-main-title {
   margin-bottom: 50px;
@@ -233,7 +235,6 @@ header {
 }
 .team-item {
   margin-right: 30px;
-  margin-bottom: 94px;
   width: 270px;
   height: 368px;
 
@@ -271,11 +272,13 @@ header {
 /*------------------Подвал---------------------*/
 .footer {
   background-color: var(--second-bgncolor);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+
+  margin-bottom: 20px;
 }
 .logo-studio {
   color: var(--second-text-color);
@@ -291,9 +294,6 @@ header {
 .footer-address:hover,
 .footer-address:focus {
   color: var(--accent-text-color);
-}
-.footer-list {
-  padding-bottom: 60px;
 }
 .footer-item {
   margin-top: 9px;
